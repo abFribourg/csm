@@ -1,0 +1,43 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  /* position: fixed;
+  top: 0; */
+  font-size: 14px
+}
+
+#box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  padding: 5px;
+  z-index: 100;
+}
+
+.label {
+  margin: 2px 0;
+  /* font-weight: bold; */
+}
+
+h1 {
+  margin-bottom: 2px;
+}
+
+table {
+  /* width: 100%; */
+}
+
+td.v-line {
+  padding: 0 15px;
+  border-right: 1px solid black;
+}
